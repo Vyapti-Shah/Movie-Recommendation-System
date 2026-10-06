@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Node/Frontend
+node_modules/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+
+# Data and ML Models (Crucial for avoiding giant commits)
+ml/data/raw/*
+ml/data/processed/*
+ml/data/embeddings/*
+ml/models/*.pt
+ml/models/*.pth
+ml/models/*.h5
+ml/models/*.pkl
+ml/models/*.joblib
+*.csv
+*.tsv
+*.parquet
+*.zip
+
+# Keep folder structure intact even if empty
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+!ml/data/embeddings/.gitkeep
+!ml/models/.gitkeep
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
